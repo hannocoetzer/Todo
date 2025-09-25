@@ -30,7 +30,7 @@ For EF migrations:
 
 ```sh
 dotnet tool install --global dotnet-ef
-
+```
 
 
 # Developer Test
