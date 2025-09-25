@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\",
+  "WorkspaceRootPath": "C:\\temp\\todo\\TodoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\angularjs-todo-test-main\\todoapi\\models\\entities\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:models\\entities\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\angularjs-todo-test-main\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\angularjs-todo-test-main\\todoapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\angularjs-todo-test-main\\todoapi\\todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\angularjs-todo-test-main\\todoapi\\models\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\models\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:models\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\angularjs-todo-test-main\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\models\\entities\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:models\\entities\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\angularjs-todo-test-main\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +38,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "TodoDTO.cs",
-              "DocumentMoniker": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Models\\DTO\\TodoDTO.cs",
+              "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Models\\DTO\\TodoDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\TodoDTO.cs",
-              "ToolTip": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Models\\DTO\\TodoDTO.cs",
+              "ToolTip": "C:\\temp\\todo\\TodoAPI\\Models\\DTO\\TodoDTO.cs",
               "RelativeToolTip": "Models\\DTO\\TodoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,24 +55,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "TodoController.cs",
-              "DocumentMoniker": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Controllers\\TodoController.cs",
+              "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Controllers\\TodoController.cs",
               "RelativeDocumentMoniker": "Controllers\\TodoController.cs",
-              "ToolTip": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Controllers\\TodoController.cs",
+              "ToolTip": "C:\\temp\\todo\\TodoAPI\\Controllers\\TodoController.cs",
               "RelativeToolTip": "Controllers\\TodoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T11:00:22.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T11:00:22.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\temp\\todo\\TodoAPI\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,11 +80,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TodoAPI",
-              "DocumentMoniker": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\TodoAPI.csproj",
+              "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\TodoAPI.csproj",
               "RelativeDocumentMoniker": "TodoAPI.csproj",
-              "ToolTip": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\TodoAPI.csproj",
+              "ToolTip": "C:\\temp\\todo\\TodoAPI\\TodoAPI.csproj",
               "RelativeToolTip": "TodoAPI.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-09-25T10:30:45.021Z",
@@ -97,42 +92,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Program.cs",
+              "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Program.cs",
+              "ToolTip": "C:\\temp\\todo\\TodoAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:25:50.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T08:25:50.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\appsettings.json",
+              "ToolTip": "C:\\temp\\todo\\TodoAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-25T08:22:21.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Todo.cs",
-              "DocumentMoniker": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Models\\Entities\\Todo.cs",
+              "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Models\\Entities\\Todo.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Todo.cs",
-              "ToolTip": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\Models\\Entities\\Todo.cs",
+              "ToolTip": "C:\\temp\\todo\\TodoAPI\\Models\\Entities\\Todo.cs",
               "RelativeToolTip": "Models\\Entities\\Todo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:17:04.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T08:17:04.265Z"
             }
           ]
         }

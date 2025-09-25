@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CeSZfoEY2eI=",
+  "dgSpecHash": "kbxnR6QqT+k=",
   "success": true,
-  "projectFilePath": "C:\\temp\\angularjs-todo-test-main\\TodoAPI\\TodoAPI.csproj",
+  "projectFilePath": "C:\\temp\\todo\\TodoAPI\\TodoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hanno\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Hanno\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

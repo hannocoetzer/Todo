@@ -16,6 +16,7 @@ namespace TodoAPI.Controllers
                 this.dbContext = dbContext;
         }
 
+        // TODO: To implement this function on document ready / or constructor to load all Todo's when app starts
         [HttpGet]
         public IActionResult GetTodos(string message) {
 
@@ -23,7 +24,13 @@ namespace TodoAPI.Controllers
             return Ok(allTodos);
         }
 
-        [HttpPost]
+        // TODO: To implement this when a user set a Todo to completed 
+        //[HttpPut("{id}")]
+        //public IActionResult UpdateTodo(int id, [FromBody] TodoDTO updateTodo)
+        //{
+        //}
+
+            [HttpPost]
         public IActionResult AddTodo([FromBody] TodoDTO addTodo)
         {
             if (addTodo == null || string.IsNullOrWhiteSpace(addTodo.Message))
