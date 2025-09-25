@@ -1,0 +1,7 @@
+# Build and object folders
+bin/
+obj/
+.vs/
+
+# Entity Framework migrations
+Migrations/

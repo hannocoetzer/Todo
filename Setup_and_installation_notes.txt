@@ -1,0 +1,7 @@
+.net framework 9.0.9
+
+to update
+
+dotnet tool update --global dotnet-ef
+
+also download latest Windows x64 dotnet 9.0.110 from https://dotnet.microsoft.com/en-us/download/dotnet/9.0
