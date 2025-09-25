@@ -2,7 +2,7 @@
 
 1. Download all necessary software (see [Downloads](#downloads) section)
 2. `git clone https://github.com/hannocoetzer/Todo.git`
-3. `git switch master`
+3. If still on master branch `git switch master`
 4. `python -m http.server 8000`
 5. `cd TodoAPI\`
 6. Open `C:\temp\todo\TodoAPI\TodoAPI.sln` (use **Visual Studio 2022**)
