@@ -39,5 +39,21 @@ namespace TodoAPI.Controllers
 
             return Ok(todoEntity);
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult RemoveTodo(Guid id)
+        {
+            //Finding the index
+            var todo = dbContext.Todos.FirstOrDefault(t => t.Id == id);
+
+            if (todo == null)
+                return NotFound($"Todo with ID {id} not found.");
+
+            // Remove it from DB
+            dbContext.Todos.Remove(todo);
+            dbContext.SaveChanges();
+
+            return NoContent(); // 204 status code for successful deletion
+        }
     }
 }

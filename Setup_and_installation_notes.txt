@@ -9,3 +9,9 @@ also download latest Windows x64 dotnet 9.0.110 from https://dotnet.microsoft.co
 Check
 -----
 https://localhost:7144/swagger/index.html
+
+Running
+-------
+
+dotnet ef migrations add 20250925
+dotnet ef database update

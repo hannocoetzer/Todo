@@ -10,14 +10,14 @@ angular.module('todoApp', [])
     
     // Function to add a new todo
     $scope.addTodo = function() {
-        console.log("AddTodo");
+        debugger;
         var todoData = {
-                Message : 'testing angular post'
+                Message : $scope.newTodo
             };
 
          $http.post('https://localhost:7144/api/Todo', todoData)
                 .then(function(response) {
-                    // Success - add the returned todo to our local array
+                    //push to array
                     $scope.todos.push({
                         id: response.data.id,
                         text: response.data.message,
@@ -33,7 +33,16 @@ angular.module('todoApp', [])
     
     // Function to remove a todo by index
     $scope.removeTodo = function(index) {
-        // TODO - Implement functionality to remove a todo by index
+        debugger;
+        var todoGuid = $scope.todos[index].id;
+        $http.delete('https://localhost:7144/api/Todo/' + todoGuid)
+        .then(function() {
+            $scope.todos.splice(index, 1);
+        })
+        .catch(function(error) {
+            console.error('Error deleting todo:', error);
+            alert('Failed to delete todo. Please try again.');
+        });
     };
     
     // Function to get the count of completed todos
