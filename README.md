@@ -6,12 +6,12 @@
 4. `python -m http.server 8000`
 5. `cd TodoAPI\`
 6. Open `C:\temp\todo\TodoAPI\TodoAPI.sln` (use **Visual Studio 2022**)
-7. Change connection string in `appsettings.json` → `DefaultConnection`
-8. Rebuild solution (`Ctrl+Shift+B`)
-9. Setup database by restoring `todo_db_20250925.bak`  
+7. Rebuild solution (`Ctrl+Shift+B`)
+8. Setup database by restoring `todo_db_20250925.bak`  
    **or using EF migration**:  
    - `dotnet ef migrations add Eerste`  
    - `dotnet ef database update`
+9. Change DefaultConnection string in `appsettings.json` → `DefaultConnection` to your local SQL Server
 10. Run in **Release mode** HTTPS (for optimal performance, no debug logging)  
     - If prompted: *click "Disable Just My Code" and continue*
 11. Check Swagger at: <https://localhost:7144/swagger/index.html>
