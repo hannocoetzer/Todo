@@ -1,15 +1,18 @@
 
 Setup
 ------------
-1.git clone https://github.com/hannocoetzer/Todo.git
-2.git switch master
-3.python -m http.server 8000
-4.cd TodoAPI\
-5.Open C:\temp\todo\TodoAPI\TodoAPI.sln (I used VS 2022)
-6. Change connection string appsettings.json DefaultConnection
-7.Rebuild solution (ctrl shift B)
-8.dotnet ef migrations add Eerste
-9.dotnet ef database update
+1. Download all necessary software (see Downloads section)
+2.git clone https://github.com/hannocoetzer/Todo.git
+3.git switch master
+4.python -m http.server 8000
+5.cd TodoAPI\
+6.Open C:\temp\todo\TodoAPI\TodoAPI.sln (I used VS 2022)
+7. Change connection string appsettings.json DefaultConnection
+8.Rebuild solution (ctrl shift B)
+9. Setup database by restoring todo_db_20250925.bak
+or (EF migration)
+9.i dotnet ef migrations add Eerste
+9.ii. dotnet ef database update
 10.Run in Release mode https (for optimal performance - no debug logging)
 	if prompted "click Disable Just my Code and conitnue"
 
@@ -19,12 +22,11 @@ Setup
 
 Downloads
 --------------------------------------------
-
 Download python from https://www.python.org/downloads/
 Download latest Windows x64 dotnet 9.0.110 from https://dotnet.microsoft.com/en-us/download/dotnet/9.0
 Donwload SQL server https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 Donwload SSMS https://aka.ms/ssms/21/release/vs_SSMS.exe
-After default install Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+For EF migrations :
 dotnet tool install --global dotnet-ef
 
 
