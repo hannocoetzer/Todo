@@ -44,6 +44,11 @@ angular.module('todoApp', [])
             alert('Failed to delete todo. Please try again.');
         });
     };
+
+    // Function to update isCompleted
+    $scope.updateTodo = function(todo) {
+
+    };
     
     // Function to get the count of completed todos
     $scope.getCompletedCount = function() {
@@ -76,4 +81,32 @@ angular.module('todoApp', [])
             return !todo.completed;
         });
     };
+
+    // Function to get Todos on startup
+    $scope.getTodos = function() {
+        debugger;
+        $http({
+            method: 'GET',
+            url: 'https://localhost:7144/api/Todo',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(function(response) {
+
+            $scope.todos = response.data.map(function(todo) {
+                return {
+                    id: todo.id,
+                    text: todo.message,
+                    completed: todo.isCompleted || false
+                };
+            });
+        })
+        .catch(function(error) {
+            console.error('Error loading todos:', error);
+            alert('Failed to load todos. Please refresh the page.');
+        });
+    };
+
+    $scope.getTodos();
 }]);

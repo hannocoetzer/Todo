@@ -1,60 +1,28 @@
-.net framework 9.0.9
-
-to update
-
-dotnet tool update --global dotnet-ef
-
-also download latest Windows x64 dotnet 9.0.110 from https://dotnet.microsoft.com/en-us/download/dotnet/9.0
-
-Check
------
-https://localhost:7144/swagger/index.html
-
-Running
--------
-
-dotnet ef migrations add 20250925
-dotnet ef database update
-
 
 Setup
 ------------
-
-git clone https://github.com/hannocoetzer/Todo.git
-git switch master
-cd TodoAPI\
-dotnet ef migrations add Eerste
-dotnet ef database update
-
-Open C:\temp\todo\TodoAPI\TodoAPI.sln (I used VS 2022)
-
-In TodoAPI\appsettings.json change DefaultConnection
-
-
-
-Run in Release mode https (for optimal performance - no debug logging)
+1.git clone https://github.com/hannocoetzer/Todo.git
+2.git switch master
+3.python -m http.server 8000
+4.cd TodoAPI\
+5.Open C:\temp\todo\TodoAPI\TodoAPI.sln (I used VS 2022)
+6. Change connection string appsettings.json DefaultConnection
+7.Rebuild solution (ctrl shift B)
+8.dotnet ef migrations add Eerste
+9.dotnet ef database update
+10.Run in Release mode https (for optimal performance - no debug logging)
 	if prompted "click Disable Just my Code and conitnue"
 
 
-You can check swagger at https://localhost:7144/swagger/index.html
+11.check swagger at https://localhost:7144/swagger/index.html
+12.check and test http://localhost:8000/
 
-If an error :
-
-The current .NET SDK does not support targeting .NET 9.0.  Either target .NET 8.0 or lower, or use a version of the .NET SDK that supports .NET 9.0. Download the .NET SDK from https://aka.ms/dotnet/download	TodoAPI	C:\Program Files\dotnet\sdk\8.0.400\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets
-
-Download latest Microsoft .Net SDK for Windows x64 dotnet 9.0.110 from https://dotnet.microsoft.com/en-us/download/dotnet/9.0	
-
-if  this error
-
-Warning (active)	NETSDK1223	Targeting .NET 9.0 or higher in Visual Studio 2022 17.11 is not supported.	TodoAPI	C:\Program Files\dotnet\sdk\9.0.110\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets	135	
-
-update visual studio to atleast to 2022 17.12
-
-
-Additional downloads
+Downloads
 --------------------------------------------
 
-donwload SQL server https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+Download python from https://www.python.org/downloads/
+Download latest Windows x64 dotnet 9.0.110 from https://dotnet.microsoft.com/en-us/download/dotnet/9.0
+Donwload SQL server https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 Donwload SSMS https://aka.ms/ssms/21/release/vs_SSMS.exe
 After default install Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
 dotnet tool install --global dotnet-ef

@@ -498,3 +498,4 @@ C:\temp\todo\TodoAPI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
 C:\temp\todo\TodoAPI\obj\Debug\net9.0\TodoAPI.csproj.Up2Date
 C:\temp\todo\TodoAPI\obj\Debug\net9.0\TodoAPI.genruntimeconfig.cache
 C:\temp\todo\TodoAPI\obj\Debug\net9.0\ref\TodoAPI.dll
+C:\temp\todo\TodoAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

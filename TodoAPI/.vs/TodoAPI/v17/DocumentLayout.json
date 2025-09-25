@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\temp\\todo\\TodoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\models\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:models\\entities\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|c:\\temp\\todo\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2ACB788A-7EF9-4A44-A524-22CE982BD704}|TodoAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TodoDTO.cs",
               "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Models\\DTO\\TodoDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\TodoDTO.cs",
@@ -55,19 +55,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "TodoController.cs",
               "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Controllers\\TodoController.cs",
               "RelativeDocumentMoniker": "Controllers\\TodoController.cs",
               "ToolTip": "C:\\temp\\todo\\TodoAPI\\Controllers\\TodoController.cs",
               "RelativeToolTip": "Controllers\\TodoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T11:00:22.701Z"
+              "WhenOpened": "2025-09-25T11:00:22.701Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -80,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "TodoAPI",
               "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\TodoAPI.csproj",
               "RelativeDocumentMoniker": "TodoAPI.csproj",
@@ -92,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -100,32 +101,34 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:25:50.517Z"
+              "WhenOpened": "2025-09-25T08:25:50.517Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\temp\\todo\\TodoAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-25T08:22:21.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Todo.cs",
               "DocumentMoniker": "C:\\temp\\todo\\TodoAPI\\Models\\Entities\\Todo.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Todo.cs",
               "ToolTip": "C:\\temp\\todo\\TodoAPI\\Models\\Entities\\Todo.cs",
               "RelativeToolTip": "Models\\Entities\\Todo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:17:04.265Z"
+              "WhenOpened": "2025-09-25T08:17:04.265Z",
+              "EditorCaption": ""
             }
           ]
         }

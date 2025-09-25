@@ -18,19 +18,27 @@ namespace TodoAPI.Controllers
 
         // TODO: To implement this function on document ready / or constructor to load all Todo's when app starts
         [HttpGet]
-        public IActionResult GetTodos(string message) {
-
+        public IActionResult GetTodos() 
+        {
             var allTodos = dbContext.Todos.ToList();
             return Ok(allTodos);
         }
 
-        // TODO: To implement this when a user set a Todo to completed 
-        //[HttpPut("{id}")]
-        //public IActionResult UpdateTodo(int id, [FromBody] TodoDTO updateTodo)
-        //{
-        //}
+        // TODO: To implement this when a user set a Todo to completed - WIP
+        /*[HttpPut("{id}")]
+        public IActionResult UpdateTodo(Guid id, bool isCompleted)
+        {
+            var existingTodo = dbContext.Todos.FirstOrDefault(t => t.Id == id);
+            if (existingTodo == null)
+                return NotFound($"Todo with id {id} not found");
 
-            [HttpPost]
+            existingTodo.isCompleted = isCompleted;
+
+            dbContext.SaveChanges();
+            return Ok(existingTodo);
+        }*/
+
+        [HttpPost]
         public IActionResult AddTodo([FromBody] TodoDTO addTodo)
         {
             if (addTodo == null || string.IsNullOrWhiteSpace(addTodo.Message))
