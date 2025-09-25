@@ -1,6 +1,6 @@
 // AngularJS Todo Application
 angular.module('todoApp', [])
-.controller('TodoController', ['$scope', function($scope) {
+.controller('TodoController', ['$scope', '$http', function($scope, $http) {
     
     // Initialize the todos array
     $scope.todos = [];
@@ -10,7 +10,25 @@ angular.module('todoApp', [])
     
     // Function to add a new todo
     $scope.addTodo = function() {
-        // TODO - Implement functionality to add a new todo
+        console.log("AddTodo");
+        var todoData = {
+                Message : 'testing angular post'
+            };
+
+         $http.post('https://localhost:7144/api/Todo', todoData)
+                .then(function(response) {
+                    // Success - add the returned todo to our local array
+                    $scope.todos.push({
+                        id: response.data.id,
+                        text: response.data.message,
+                        completed: response.data.isCompleted || false
+                    });
+                    $scope.newTodo = '';
+                })
+                .catch(function(error) {
+                    console.error('Error adding todo:', error);
+                    alert('Failed to add todo. Please try again.');
+                });
     };
     
     // Function to remove a todo by index
